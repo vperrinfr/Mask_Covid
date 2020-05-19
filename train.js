@@ -5,13 +5,13 @@ const { IamAuthenticator } = require('ibm-watson/auth');
 const visualRecognition = new VisualRecognitionV4({
   version: '2019-02-11',
   authenticator: new IamAuthenticator({
-    apikey: 'cWPJQ9i0SRbwSrnHsGIwI7cFIvOrJYFKDBpNIfHWCRqn'
+    apikey: 'XXXXXXXXXXXXXXX'
   }),
   url: 'https://api.us-south.visual-recognition.watson.cloud.ibm.com',
 });
 
 const params = {
-    collectionId: '1e35cc93-2ba3-4471-a354-1aa72767ea1b'
+    collectionId: 'XXXXXXXXXXXXXXX'
 };
 
 visualRecognition.train(params)
