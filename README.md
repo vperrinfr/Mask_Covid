@@ -27,7 +27,7 @@ The scripts has to be run at the root of the extracted Kaggle dataset.
 
 ## Adapt these scripts to your env
 
-Change the api key and gateway url (if relevant).
+Change the api key, collectionId (in some files) and gateway url (if relevant).
 
 ```
 const visualRecognition = new VisualRecognitionV4({
