@@ -16,14 +16,14 @@ That dataset is labelled using YOLO format.
 I have written several scripts to implement the different steps of the overall process.
 
 **transform_label.js** *to adapt the content in YOLO to Watson format*
-[image]
+![folder](img/format.png)
 **upload.js** *to upload images and data to Watson VR instance*
 **list.js** *to list uploaded images*
 **train.js** *to launch and monitor the training process*
 
 The scripts has to be run at the root of the extracted Kaggle dataset.
 
-![folder](https://octodex.github.com/images/yaktocat.png)
+![folder](img/folder.png)
 
 ## Adapt these scripts to your env
 
