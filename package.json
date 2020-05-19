@@ -1,0 +1,19 @@
+{
+    "name": "@ibm-watson/natural-language-understanding-nodejs",
+    "version": "0.0.2",
+    "description": "A sample Node.js app for IBM Cloud that use the IBM Watson Natural Language Understanding service",
+    "engines": {
+      "node": ">=12"
+    },
+    "author": "IBM Corp.",
+    "license": "Apache-2.0",
+    "scripts": {},
+    "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^5.5.0"
+    },
+    "devDependencies": {
+    }
+  }
