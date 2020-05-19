@@ -5,7 +5,7 @@ const { IamAuthenticator } = require('ibm-watson/auth');
 const visualRecognition = new VisualRecognitionV4({
   version: '2019-02-11',
   authenticator: new IamAuthenticator({
-    apikey: 'cWPJQ9i0SRbwSrnHsGIwI7cFIvOrJYFKDBpNIfHWCRqn'
+    apikey: 'XXXXXXXXXXXX'
   }),
   url: 'https://api.us-south.visual-recognition.watson.cloud.ibm.com',
 });
@@ -15,7 +15,7 @@ fs.readdir(testFolder, (err, files) => {
   files.forEach(file => {
     var fil_wout_ext = file.slice(0,file.length-4);
     const params = {
-      collectionId: '1e35cc93-2ba3-4471-a354-1aa72767ea1b',
+      collectionId: 'XXXXXXXXXXXXXX',
       imagesFile: [
         {
           data: fs.createReadStream("./images/train/"+ fil_wout_ext +".jpg"),
